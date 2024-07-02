@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Quiz Maker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Online Quiz Maker</h1>
+  </header>
+  <main>
+    <section id="quiz-container">
+      <h2>Available Quizzes</h2>
+      <div id="quizzes-list">
+        <!-- Quizzes dynamically added here -->
+      </div>
+    </section>
+
+    <section id="take-quiz-container" class="hidden">
+      <h2 id="quiz-title"></h2>
+      <div id="questions-container">
+        <!-- Questions dynamically added here -->
+      </div>
+      <button id="submit-quiz-btn">Submit Quiz</button>
+    </section>
+
+    <section id="quiz-result-container" class="hidden">
+      <h2>Your Quiz Result</h2>
+      <div id="quiz-score"></div>
+      <button id="retake-quiz-btn">Retake Quiz</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
